@@ -51,7 +51,7 @@ let scores, currentScore, activePayer, playing;
       //  console.log(dice)
       // 2 display dice
       diceeEl.classList.remove('hidden')
-      diceeEl.src =`/./images/dice-${dice}.png` // dice src constant
+      diceeEl.src =`./images/dice-${dice}.png` // dice src constant
       // 3 check for rolled1
       if(dice !== 1) {
         currentScore += dice
